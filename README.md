@@ -13,8 +13,8 @@ I write Lua for Roblox, from bug fixes to feature implementations, and design ev
 
 ### Projects
 - **[pygame-ce-agent](https://github.com/anaalkmim/pygame-ce-agent)** — Documentation agent over a Sanity Context knowledge base built from two diverging pygame distributions. The first two scorers failed answers that were actually correct; the README documents how I caught it.
-- **[llm-eval-framework](https://github.com/anaalkmim/llm-eval-framework)** — Rule-based LLM evaluation across factual accuracy, instruction following, reasoning and safety, with per-category score reports and charts. 13 pytest tests.
-- **[spotify-music-pipeline](https://github.com/anaalkmim/spotify-music-pipeline)** — ETL over the Spotify API: pandas, CSV/Parquet, matplotlib. When undocumented API restrictions blocked the original plan, I rebuilt extraction around the search endpoint.
+- **[llm-eval-framework](https://github.com/anaalkmim/llm-eval-framework-)** — Rule-based LLM evaluation across factual accuracy, instruction following, reasoning and safety, with per-category score reports and charts. 13 pytest tests.
+- **[spotify-music-pipeline](https://github.com/anaalkmim/spotify-music-pipeline)** — ETL over the Spotify API: pandas, CSV/Parquet, matplotlib.
 - **[cat-dash](https://github.com/anaalkmim/cat-dash)** — Endless runner in Pygame with programmatically synthesized audio. [Playable on itch.io](https://anaalkmim.itch.io/cat-dash).
 
 ### Open source
@@ -25,7 +25,7 @@ I write Lua for Roblox, from bug fixes to feature implementations, and design ev
 - A submission for the [Sanity Challenge](https://dev.to/challenges) on DEV: an agent over structured content, built on the pygame-ce-agent above
 - A submission for the [Kaggle Benchmarking Challenge](https://dev.to/challenges/kaggle-2026-09-23) on DEV: a custom benchmark run across a suite of models
 
-**Stack:** Python, SQL, TypeScript, JavaScript, Lua, PyTorch, JAX, pandas, pytest, Docker, Git
+**Stack:** Python, SQL, TypeScript, JavaScript, Lua, PyTorch, JAX, pandas, pytest, OpenSees, OpenFOAM, Docker, Git
 
 **Domains:** ML problem design, RLHF, RL scoring, prompt engineering, code review, reasoning evaluation, game scripting, multilingual data quality (PT/EN)
 
