@@ -12,7 +12,8 @@ I design machine learning problems hard enough to stump state-of-the-art coding 
 I write Lua for Roblox, from bug fixes to feature implementations, and design evaluation tasks for AI agents working on game codebases, where "it compiles" is rarely the same as "it plays right." I also author the reference specs and scoring rubrics those evaluations grade against, and review other annotators' work against them.
 
 ### Projects
-- **[pygame-ce-agent](https://github.com/anaalkmim/pygame-ce-agent)** — Documentation agent over a Sanity Context knowledge base built from two diverging pygame distributions. The first two scorers failed answers that were actually correct; the README documents how I caught it.
+- **[wrong-test-bench](https://github.com/anaalkmim/wrong-test-bench)** — Benchmark for what a model does when one test contradicts the spec: implement the spec, or make the test pass? Scored by running the code, no LLM judge. Across 144 runs on 4 models, no model hardcoded the test, and under CI pressure the spec lost every time. [Leaderboard on Kaggle Benchmarks](https://www.kaggle.com/benchmarks/tasks/analuizaalkmim/wrong-test-bench) · [Write-up on DEV](https://dev.to/anaalkmim/i-put-one-wrong-test-in-the-file-most-models-sided-with-the-test-410k), submitted to the Kaggle Benchmarking Challenge.
+- **[pygame-ce-agent](https://github.com/anaalkmim/pygame-ce-agent)** — Documentation agent over a Sanity Context knowledge base built from two diverging pygame distributions. The first two scorers failed answers that were actually correct; the README documents how I caught it. [Write-up on DEV](https://dev.to/anaalkmim/an-agent-that-knows-which-pygame-you-are-actually-running-2f3g), submitted to the Sanity Challenge.
 - **[llm-eval-framework](https://github.com/anaalkmim/llm-eval-framework-)** — Rule-based LLM evaluation across factual accuracy, instruction following, reasoning and safety, with per-category score reports and charts. 13 pytest tests.
 - **[spotify-music-pipeline](https://github.com/anaalkmim/spotify-music-pipeline)** — ETL over the Spotify API: pandas, CSV/Parquet, matplotlib.
 - **[cat-dash](https://github.com/anaalkmim/cat-dash)** — Endless runner in Pygame with programmatically synthesized audio. [Playable on itch.io](https://anaalkmim.itch.io/cat-dash).
@@ -22,8 +23,6 @@ I write Lua for Roblox, from bug fixes to feature implementations, and design ev
 
 ### Currently building
 - A RAG pipeline with a built-in evaluation layer that measures retrieval relevance and answer faithfulness, not just whether the output sounds right
-- A submission for the [Sanity Challenge](https://dev.to/challenges) on DEV: an agent over structured content, built on the pygame-ce-agent above
-- A submission for the [Kaggle Benchmarking Challenge](https://dev.to/challenges/kaggle-2026-09-23) on DEV: a custom benchmark run across a suite of models
 
 **Stack:** Python, SQL, TypeScript, JavaScript, Lua, PyTorch, JAX, pandas, pytest, OpenSees, OpenFOAM, Docker, Git
 
