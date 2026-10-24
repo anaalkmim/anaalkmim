@@ -22,8 +22,7 @@ I write Lua for Roblox, from bug fixes to feature implementations, and design ev
 - **[codecarbon #1157](https://github.com/mlco2/codecarbon/pull/1157)** — Added CPU power data to the dataset. Merged in v3.2.7.
 
 ### Currently building
-- A RAG pipeline with a built-in evaluation layer that measures retrieval relevance and answer faithfulness, not just whether the output sounds right - https://github.com/anaalkmim/rag-eval
-
+- [rag-eval](https://github.com/anaalkmim/rag-eval) — a RAG pipeline with an evaluation layer that measures retrieval relevance and answer faithfulness, not just whether the output sounds right
 **Stack:** Python, SQL, TypeScript, JavaScript, Lua, PyTorch, JAX, pandas, pytest, OpenSees, OpenFOAM, Docker, Git
 
 **Domains:** ML problem design, RLHF, RL scoring, prompt engineering, code review, reasoning evaluation, game scripting, multilingual data quality (PT/EN)
