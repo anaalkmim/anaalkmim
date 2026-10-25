@@ -23,6 +23,7 @@ I write Lua for Roblox, from bug fixes to feature implementations, and design ev
 
 ### Currently building
 - [rag-eval](https://github.com/anaalkmim/rag-eval) — a RAG pipeline with an evaluation layer that measures retrieval relevance and answer faithfulness, not just whether the output sounds right
+
 **Stack:** Python, SQL, TypeScript, JavaScript, Lua, PyTorch, JAX, pandas, pytest, OpenSees, OpenFOAM, Docker, Git
 
 **Domains:** ML problem design, RLHF, RL scoring, prompt engineering, code review, reasoning evaluation, game scripting, multilingual data quality (PT/EN)
